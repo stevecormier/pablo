@@ -5,64 +5,64 @@
 body {
   background-color: #F88C58;
 }
-#one {
-  top: 38px;
-  left: 8px;
-}
-#two {
-  top: 160px;
-  left: 10px;
-}
-#three {
-  top: 308px;
-  left: 6px;
-}
-#four {
-  top: 97px;
-  left: 179px;
-}
-#five {
-  top: 229px;
-  left: 178px;
-}
-#six {
-  top: 385px;
-  left: 185px;
-}
-#seven {
-  top: 87px;
-  left: 339px;
-}
-#eight {
-  top: 236px;
-  left: 341px;
-}
-#nine {
-  top: 375px;
-  left: 323px;
-}
-ul {
+img {
+  left: 75px;
   position: absolute;
-  display: inline-block;
-  margin: 0;
+  top: 460px;
+}
+input {
+  position: absolute;
+  top: 600px;
 }
 li {
   color: #1D0800;
   font-family: 'ArialExtraBold';
   font-size: 16px;
   font-weight: 700;
-  line-height: 19.9px;
   letter-spacing: -0.1px;
-  word-spacing: 2px;
-  text-transform: uppercase;
+  line-height: 19.9px;
   list-style: none;
+  text-transform: uppercase;
+  word-spacing: 2px;
 }
-input {
-  display: block;
-  margin-bottom: 20px;
-}
-img {
+ul {
+  display: inline-block;
+  margin: 0;
   position: absolute;
-  top: 460px;
-  left: 75px;
+}
+#one {
+  left: 8px;
+  top: 38px;
+}
+#two {
+  left: 10px;
+  top: 160px;
+}
+#three {
+  left: 6px;
+  top: 308px;
+}
+#four {
+  left: 179px;
+  top: 97px;
+}
+#five {
+  left: 178px;
+  top: 229px;
+}
+#six {
+  left: 185px;
+  top: 385px;
+}
+#seven {
+  left: 339px;
+  top: 87px;
+}
+#eight {
+  left: 341px;
+  top: 236px;
+}
+#nine {
+  left: 323px;
+  top: 375px;
 }
