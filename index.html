@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>⚡️📙⚡️</title>
+    <link rel="stylesheet" href="goddream.css">
+  </head>
+  <body>
+    <input type="text" value="The Life of Pablo">
+    <ul id='one'>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id='two'>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id='three'>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id="four">
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id="five">
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id="six">
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id="seven">
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id="eight">
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <ul id="nine">
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+      <li>The Life of Pablo</li>
+    </ul>
+    <img src="fam.jpg"/>
+    <script>
+      var input = document.getElementsByTagName('input')[0];
+      var items = document.getElementsByTagName('li');
+      var text  = '';
+
+      input.oninput = function() {
+        text = input.value;
+        for (var i = 0; i < items.length; i++) {
+          items[i].innerHTML = text;
+        }
+      }
+    </script>
+  </body>
+</html>
